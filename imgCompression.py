@@ -19,9 +19,9 @@ def compressMeReturn(file, maxDim, verbose=False):
 	
 	picture.thumbnail((dim[0]*ratio,dim[1]*ratio), Image.ANTIALIAS)
 	if os.path.splitext(file)[1].lower() in ('.jpg', '.jpeg','.png'):
-		picture.save(os.getcwd()+"/compressedImages/"+file,"JPEG",optimize=True,quality=75)
+		picture.save(os.getcwd()+"/compressedImages/"+file,"JPEG",optimize=True,quality=70)
 	else:
-		picture.save(os.getcwd()+"/compressedImages/"+file,"PNG",optimize=True,quality=75)  
+		picture.save(os.getcwd()+"/compressedImages/"+file,"PNG")  
 	
 	newsize = os.stat(os.path.join(os.getcwd(),os.getcwd()+"/compressedImages")).st_size
 	percent = (oldsize-newsize)/float(oldsize)*100
