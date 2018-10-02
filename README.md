@@ -8,4 +8,4 @@ How to use:(Assuming you have downloaded Pillow library and python already insta
 2. Edit 'quality' parameter to the level of compression needed. Ideal value between 65 to 80 is fine.
 3. Run the script.
 4. Compressed images are stored in a folder called 'compressedImages' in the same folder where the script is present.
-NOTE: A line with reference to PNG is present. It's only to handle incase files with PNG format are encountered in the folder while running the script. PNG is a lossless format and hence will have no effect on compression.
+NOTE: A line with reference to PNG is present. It's only to handle incase files with PNG format are encountered in the folder while running the script.
