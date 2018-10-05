@@ -3,7 +3,7 @@
 
 ## Contents
 
-* Image compression
+* [Image compression](https://github.com/mohdizzy/helpYourself#image-compression)
 
 
 ## Image compression
